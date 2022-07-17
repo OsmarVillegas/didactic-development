@@ -1,0 +1,136 @@
+<h4>Lista de Preguntas</h4>
+<br>
+<table class="table table-bordered table-sm">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Pregunta</th>
+            <th>Tipo</th>
+            <th>Puntos</th>
+            <th>Editar</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> 1 </td>
+            <td> ¿Cuál seria una buena pregunta de ejemplo? </td>
+            <td> Multipregunta </td>
+            <td> 15 pts </td>
+            <td>
+                <a class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#demo">
+                    <i class="fas fa-marker"></i>
+                </a>
+            </td>
+            <td>
+                <a href="/instructor" class="btn btn-danger">
+                    <i class="fa-solid fa-trash-can"></i>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <br>
+            </td>
+            <td>
+                <br>
+                <br>
+            </td>
+            <td>
+                <br>
+                <br>
+            </td>
+            <td>
+                <br>
+                <br>
+            </td>
+            <td>
+                <br>
+                <br>
+            </td>
+            <td>
+                <br>
+                <br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="botones-tabla">
+    <button type="button" class="btn btn-primary btn-sm">
+        <-- </button>
+            <button type="button" class="btn btn-primary btn-sm">--></button>
+</div>
+
+<br>
+
+<div id="preguntas" class="collapse" style="position: relative;" id="demo" class="rounded"
+    style="outline: 0.1em solid blue;">
+    <div class="container mt-3">
+        <h4>Pregunta:</h4>
+        <br>
+        <table class="table table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th> <br> </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-5">
+                <form action="insertar.php" class="form-agregar" method="post" enctype="multipart/form-data">
+                    <h4 class="form__title">Tipo de Pregunta: </h4>
+
+                    <label for="" class="for__label"> </label>
+                    <input type="text" class="form__input" name="preguntatipo" required>
+
+                </form>
+            </div>
+            <div class="col-sm-3">
+                <form action="insertar.php" class="form-agregar" method="post" enctype="multipart/form-data">
+                    <h4 class="form__title">Puntos: </h4>
+
+                    <label for="" class="for__label"> </label>
+                    <input type="text" class="form__input" name="points" required>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-11">
+        <div align="right" id="btn1">
+            <form id="btn1">
+                <input type="submit" name="btn1" value="Aplicar">
+                <br>
+                <br>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container mt-1">
+    <div class="row">
+        <div class="col-sm-1">
+            <div class="col-sm-11">
+                <div align="right" id="btn1">
+                    <form id="btn1">
+                        <a href="/instructor pantalla quiz" class="btn btn-danger">Salir</a>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-11">
+            <div class="col-sm-12">
+                <div align="right" id="btn1">
+                    <a href="/instructor pantalla quiz" class="btn btn-primary">Guardar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<label style="display: block;">
+    <div class="alert alert-success alert-dismissible" *ngIf="mostrarAlerta" style="width: auto; height: auto;">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div>
+</label>
+<header id="cabecera">
+    <h1>Laboratorio</h1>
+</header>
+<hr>
+<div id="seccion">
+    <form id="nombreLab">
+        <label for="exampleFormControlInput1" style="display:block;">Nombre laboratorio</label>
+        <input type="text" id="nombreLaboratorio">
+    </form>
+
+    <form id="ayuda">
+        <label for="exampleFormControlTextarea1" style="display:block;">Descripcion</label>
+        <textarea class="form-control" id="description" rows="3"></textarea>
+    </form>
+    <form>
+        <div id="subirArchivos">
+            <label for="exampleFormControlFile1" style="display:block;">Subir archivos</label>
+            <textarea class="form-control" id="descriptio" rows="3">
+                      </textarea>
+        </div>
+    </form>
+    <br>
+    <a id="s" type="button" class="btn btn-primary" style="line-height: 2em;" (click)="show()"
+        id="botonGuardar">Guardar</a>
+
+
+
+</div>

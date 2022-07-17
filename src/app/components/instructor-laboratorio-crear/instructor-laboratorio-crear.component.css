@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#seccion #nombreLab{
+    float: left;
+    margin: 15px;
+    padding: 10px;
+}
+#seccion #ayuda{
+    clear: both;
+    float: left;
+    margin: 15px;
+    padding: 10px;      
+}
+#botonGuardar{
+    clear: both;
+    width: 120px;
+    height: 40px;
+    margin: 20px 5px 15px 50px; 
+    float: right;
+}
+#seccion form{
+    clear: both;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+}
+div #nombreLaboratorio{
+    width: 800px;
+    height: 30px;
+}
+form #description{
+
+    height: 100px;
+    width: 800px;
+}
+form #descriptio{
+    height: 80px;
+    width: 800px;
+}
+body {
+    margin: 25px 50px;
+}

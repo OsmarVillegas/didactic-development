@@ -1,0 +1,9 @@
+#pie{
+    text-align: center;
+    padding: 20px;
+    background: #007c0a;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: absolute,fixed;
+}

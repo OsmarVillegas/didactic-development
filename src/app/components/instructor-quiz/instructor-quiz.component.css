@@ -1,0 +1,15 @@
+#botones-tabla{
+    float: right;
+    position: relative;
+    bottom: 1em;
+}
+
+button{
+    margin: 0.1em;
+}
+
+#preguntas{
+    position: relative;
+    outline: 0.1em solid blue;
+}
+
