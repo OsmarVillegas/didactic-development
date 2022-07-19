@@ -1,6 +1,6 @@
 
-import { VerTemasComponent } from './components/ver-temas/ver-temas.component';
-import { VerCursoComponent } from './components/ver-curso/ver-curso.component';
+import { VerTemasComponent } from '../app/Administrador_1/ver-temas/ver-temas.component';
+import { VerCursoComponent } from '../app/Administrador_1/ver-curso/ver-curso.component';
 import { MiscursosComponent } from './components/miscursos/miscursos.component';
 import { InscripcionSComponent } from './components/inscripcion-s/inscripcion-s.component';
 import { InscripcionComponent } from './components/inscripcion/inscripcion.component';
@@ -13,17 +13,16 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { RevisarActividadesComponent } from './components/revisar-actividades/revisar-actividades.component';
-import { AgregarTemaComponent } from './components/agregar-tema/agregar-tema.component';
-import { ActJuegoComponent } from './components/act-juego/act-juego.component';
-import { AgregarActividadComponent } from './components/agregar-actividad/agregar-actividad.component';
-import { ActVideoComponent } from './components/act-video/act-video.component';
-import { ActLecturaComponent } from './components/act-lectura/act-lectura.component';
-import { InstructorLaboratorioComponent } from './components/instructor-laboratorio/instructor-laboratorio.component';
-import { InstructorLaboratorioCrearComponent } from './components/instructor-laboratorio-crear/instructor-laboratorio-crear.component';
-import { InstructorLaboratorioMenuComponent } from './components/instructor-laboratorio-menu/instructor-laboratorio-menu.component';
+import { AgregarTemaComponent } from '../app/Administrador_1/agregar-tema/agregar-tema.component';
+import { ActJuegoComponent } from '../app/Administrador_1/act-juego/act-juego.component';
+import { AgregarActividadComponent } from '../app/Administrador_1/agregar-actividad/agregar-actividad.component';
+import { ActVideoComponent } from '../app/Administrador_1/act-video/act-video.component';
+import { ActLecturaComponent } from '../app/Administrador_1/act-lectura/act-lectura.component';
+import { InstructorLaboratorioComponent } from '../app/Administrador_2/instructor-laboratorio/instructor-laboratorio.component';
+import { InstructorLaboratorioCrearComponent } from '../app/Administrador_2/instructor-laboratorio-crear/instructor-laboratorio-crear.component';
+import { InstructorLaboratorioMenuComponent } from '../app/Administrador_2/instructor-laboratorio-menu/instructor-laboratorio-menu.component';
 
 const routes: Routes = [
-  {path:'login', component:LoginComponent},
   {path:'alumnos',component:AlumnosComponent},
   {path:'administrador',component:AdministradorComponent},
   {path:'instructor',component:InstructorComponent},

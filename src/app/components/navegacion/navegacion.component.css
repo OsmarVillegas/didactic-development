@@ -1,7 +1,25 @@
 #nav{
-    background: #19cc7b;
-    color: white;
+    background: #19cc7b; 
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 20000;
+    width: 100%;
 }
-/* .navbar-brand{
-    color: blue;
-} */
+
+li{
+    font-size: 1em;
+    transition: 0.5s;
+    position:relative;
+    transition-duration: transform 1s;
+
+}
+
+li:hover{
+    transform: scale(1.25);
+}
+
+#Logo{
+    width: 3em;
+    height: 3em;
+}
+
